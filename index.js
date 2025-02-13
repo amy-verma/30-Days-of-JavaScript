@@ -1,16 +1,29 @@
-// let sidea=parseFloat(prompt("Enter the side a"))
-// let sideb=parseFloat(prompt("Enter side b"))
-// let sidec=parseFloat(prompt("Enter side c"))
-// let perimeter=sidea+sideb+sidec;
-// console.log(perimeter)
-// alert(`${perimeter}`)
+// let age=prompt("Enter your Age")
+// if(age>=18){
+//     alert("You can drive")
+// }else{
+//     const yearLeft=18-age
+//     alert(`You are left with ${yearLeft} years to drive`)
+// }
+///////////////////////////////////////////////////////////////////////////////////////////
+// let myAge=27;
+// let yourAge=prompt("Enter your age")
+// if (yourAge>myAge){
+//     alert (`You are older ${yourAge-myAge} years than me`)
+// }else if(yourAge<myAge){
+    
+//     alert( `you are ${myAge-yourAge} years younger than me`)
 
-let length=parseInt(prompt("Enter length"))
-let width=parseInt(prompt("Enter width"))
-let area=length*width;
-let perimeter=2*length*width;
-console.log(area,perimeter)
-alert(`area:${area},perimeter:${perimeter}`)
+// }else{
+//     alert(`We are same`)
+// }
+///////////////////////////////////////////
+// let a=prompt("Enter the value of a ");
+// let b=prompt("Enter the value of b")
+// if(a>b){
+//     alert(`a is Greater`)
+// }else{
+//     alert(`b is Greater`)
+// }
 
-const now=new Date();
-console.log(String(now.getMonth()+1).padStart(2,'0'))
+ 
