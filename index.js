@@ -11,3 +11,6 @@ let area=length*width;
 let perimeter=2*length*width;
 console.log(area,perimeter)
 alert(`area:${area},perimeter:${perimeter}`)
+
+const now=new Date();
+console.log(String(now.getMonth()+1).padStart(2,'0'))
