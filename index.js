@@ -1,29 +1,13 @@
-// let age=prompt("Enter your Age")
-// if(age>=18){
-//     alert("You can drive")
-// }else{
-//     const yearLeft=18-age
-//     alert(`You are left with ${yearLeft} years to drive`)
-// }
-///////////////////////////////////////////////////////////////////////////////////////////
-// let myAge=27;
-// let yourAge=prompt("Enter your age")
-// if (yourAge>myAge){
-//     alert (`You are older ${yourAge-myAge} years than me`)
-// }else if(yourAge<myAge){
-    
-//     alert( `you are ${myAge-yourAge} years younger than me`)
+// //find the middle company
+// const itCompanies =["Facebook","Google","Microsoft","Apple","IBM","Oracle","Amazon"]
+// const middleIndex=Math.floor(itCompanies.length/2)
+// const middleCompany=itCompanies[middleIndex]
+// console.log(middleCompany)
 
-// }else{
-//     alert(`We are same`)
-// }
-///////////////////////////////////////////
-// let a=prompt("Enter the value of a ");
-// let b=prompt("Enter the value of b")
-// if(a>b){
-//     alert(`a is Greater`)
-// }else{
-//     alert(`b is Greater`)
-// }
 
- 
+// const itCompanies =["Facebook","Google","Microsoft","Apple","IBM","Oracle","Amazon"]
+// console.log(itCompanies.map(c=>c.toUpperCase()))
+
+let  ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+let sortedAge=ages.sort((a,b)=>a-b);
+console.log(ages)
