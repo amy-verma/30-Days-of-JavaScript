@@ -1,29 +1,22 @@
-// let age=prompt("Enter your Age")
-// if(age>=18){
-//     alert("You can drive")
-// }else{
-//     const yearLeft=18-age
-//     alert(`You are left with ${yearLeft} years to drive`)
-// }
-///////////////////////////////////////////////////////////////////////////////////////////
-// let myAge=27;
-// let yourAge=prompt("Enter your age")
-// if (yourAge>myAge){
-//     alert (`You are older ${yourAge-myAge} years than me`)
-// }else if(yourAge<myAge){
-    
-//     alert( `you are ${myAge-yourAge} years younger than me`)
+// Union of sets
 
-// }else{
-//     alert(`We are same`)
-// }
-///////////////////////////////////////////
-// let a=prompt("Enter the value of a ");
-// let b=prompt("Enter the value of b")
-// if(a>b){
-//     alert(`a is Greater`)
-// }else{
-//     alert(`b is Greater`)
-// }
+let a=[1,2,3,4,5]
+let b=[7,8,9,0]
+let c=[...a,...b]
+console.log(c)
+let A=new Set(c)
+console.log(A)
+let B=new Set(b)
+console.log(B)
 
- 
+// Intersection of sets
+let a = [1, 2, 3, 4, 5]
+let b = [3, 4, 5, 6]
+
+let A = new Set(a)
+let B = new Set(b)
+
+let c = a.filter((num) => B.has(num))
+let C = new Set(c)
+
+console.log(C)
